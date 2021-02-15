@@ -16,5 +16,7 @@ public class DataType
 		System.out.println("Current Organisation: "+curOrg);
 		System.out.println("Current CTC: "+curCtc);
 		System.out.println("Preferred location to work: "+preLocation);
+		
+		//object = Wrapper.parseType
 	}
 }
