@@ -13,7 +13,7 @@ public class TheatreCounter
 	System.out.println("*******Thanks for entering the show count");
 	System.out.println("Please Enter the tickets you want");
 	int tickets=s.nextInt();
-	for (int show=1;show>=showcount;show++)
+	for (int show=1;show<=showcount;show++)
 	{
 		int ticketavailable=50;
 		if(tickets<=ticketavailable)
